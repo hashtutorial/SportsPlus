@@ -1,0 +1,124 @@
+📱 Project Name: Sport+ – Mobile App for Online Sports Product Shopping
+
+🧭 Objective: Build a complete, production-ready mobile e-commerce application named Sport+ focused on selling sports-related products, using the UI and structural design described below.
+
+🛠 Platform & Output Requirements:
+
+Final application must be compatible with Android Studio.
+Output all source code (Java/Kotlin or Flutter/Dart), assets, Firebase integration, and instructions for import into Android Studio.
+Use Firebase services (Authentication, Firestore, Storage) where needed.
+Code should be modular, scalable, and follow clean architecture.
+🎨 Design & UI Instructions:
+
+Follow the color scheme, layout, spacing, icon placement, and component hierarchy described below.
+Ensure mobile responsiveness and visually consistent styling across all pages.
+Use Material Design principles and modern UI standards.
+App logo centered.
+Branded background (assume sporty theme: black + red).
+Automatically redirects to login or home if already authenticated.
+App logo at the top.
+
+Fields:
+
+Email
+Password
+Buttons:
+
+Login
+“Forgot Password?”
+Google sign-in (via Firebase Auth)
+“Register Now” (links to registration page)
+Display validation messages.
+
+Fields:
+
+Full Name
+Email
+Phone Number
+Password
+Confirm Password
+Create Account button.
+
+Link to login page.
+
+App bar with:
+
+Menu/profile icon (top left)
+Cart icon (top right)
+Promotional banner carousel.
+
+Horizontal scroll of categories: Shoes, Apparel, Equipment, etc.
+
+Product grid:
+
+Product image, name, and price.
+Bottom navigation bar:
+
+Home | Search | Cart | Profile
+Top search bar.
+Optional filters (price range, brand, etc.).
+Product results in grid/list.
+No-results message if empty.
+Product image carousel.
+Title, brand, price.
+Description.
+Stock status.
+“Add to Cart” and “Wishlist” buttons.
+Reviews and ratings section.
+Product list with:
+
+Image, title, quantity control, remove button.
+Price summary:
+
+Subtotal, tax, total.
+Proceed to Checkout button.
+
+Form:
+
+Full Name
+Address
+City, ZIP
+Phone
+Select payment method (dummy payment acceptable).
+
+Summary of items and final cost.
+
+Confirm Order button.
+
+Profile avatar, name, email.
+
+Buttons:
+
+Edit Profile
+Order History
+Wishlist
+Settings
+Logout
+Scrollable list of past orders:
+
+Items ordered, total amount, order date, order status.
+View details or reorder option.
+Grid of saved products.
+Add to cart or remove from wishlist actions.
+Display friendly error pages for:
+
+Network issues
+API failures
+Show messages like “No items found” when needed.
+
+Authentication: Email/password + Google login
+
+Firestore Database:
+
+Users
+Products
+Orders
+Wishlist
+Cart Items
+Cloud Functions (Optional): For order processing logic.
+
+Full source code in Android Studio-compatible format.
+Firebase backend configured (or instructions provided).
+Asset files (icons, placeholders).
+README file with setup instructions and feature list.
+Responsive UI and functioning app flow from login to order placement.
